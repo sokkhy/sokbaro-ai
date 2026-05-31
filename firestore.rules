@@ -1,0 +1,15 @@
+rules_version = '2';
+
+// SokBaro AI — each user (anonymous auth) may only read/write their own
+// posture session documents.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /posture_sessions/{sessionId} {
+      allow read: if request.auth != null
+        && resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null
+        && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if false;
+    }
+  }
+}

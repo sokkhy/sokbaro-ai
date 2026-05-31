@@ -1,0 +1,14 @@
+{
+  "indexes": [
+    {
+      "//": "Required by the dashboard query: where(userId ==) + orderBy(createdAt desc).",
+      "collectionGroup": "posture_sessions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored MediaPipe WASM assets — not our source.
+    "public/**",
+    // Built extension output.
+    "extension/dist/**",
   ]),
 ]);
 

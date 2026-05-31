@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 /.pnp
+
+# built chrome extension
+/extension/dist
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -32,6 +35,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
