@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SokBaro AI icon">
+  <rect width="128" height="128" rx="28" fill="#052e2b"/>
+  <circle cx="64" cy="64" r="48" fill="#10b981"/>
+  <path d="M39 82c8 10 16 15 25 15s17-5 25-15" fill="none" stroke="#052e2b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M64 31v50" fill="none" stroke="#ecfdf5" stroke-width="12" stroke-linecap="round"/>
+  <path d="M43 48c7-8 14-12 21-12s14 4 21 12" fill="none" stroke="#ecfdf5" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="64" cy="26" r="10" fill="#ecfdf5"/>
+</svg>

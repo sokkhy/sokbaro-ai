@@ -10,7 +10,9 @@
     "lint": "eslint",
     "test": "vitest run",
     "build:ext": "vite build",
-    "dev:ext": "vite build --watch"
+    "dev:ext": "vite build --watch",
+    "generate:ext-icons": "node scripts/generate-extension-icons.mjs",
+    "package:ext": "node scripts/package-extension.mjs"
   },
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.35",
