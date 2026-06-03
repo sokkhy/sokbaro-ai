@@ -84,6 +84,11 @@ npm run lint     # eslint
 npm test         # vitest unit tests (scoring, alerts, calibration, breaks)
 ```
 
+## Contributing
+
+Contributions are welcome. Please read `CONTRIBUTING.md` before opening a pull request,
+especially the privacy expectations around camera data and optional Firebase history.
+
 ## Project layout
 
 - `lib/pose/` — pure posture logic: `scoring.ts`, `calibration.ts`, `alerts.ts`, `landmarks.ts` (+ tests)
@@ -98,3 +103,7 @@ npm test         # vitest unit tests (scoring, alerts, calibration, breaks)
 
 Camera frames are analyzed in the browser and discarded immediately. Only derived
 numbers (average score, % good, alert count, timestamps) are ever stored.
+
+## License
+
+SokBaro AI is available under the MIT License. See `LICENSE`.
